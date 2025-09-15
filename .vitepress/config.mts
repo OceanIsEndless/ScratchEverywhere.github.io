@@ -5,11 +5,12 @@ export default defineConfig({
   title: "Scratch Everywhere!",
   description: "Custom Scratch Runtime made in C++!",
   head: [
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
-    ['link', { rel: 'manifest', href: '/site.webmanifest' }]
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/ScratchEverywhere.github.io/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/ScratchEverywhere.github.io/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/ScratchEverywhere.github.io/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/ScratchEverywhere.github.io/site.webmanifest' }]
   ],
+  base: '/ScratchEverywhere.github.io/',
   themeConfig: {
     logo:
       "https://github.com/ScratchEverywhere/ScratchEverywhere/blob/main/gfx/menu/logo.png?raw=true",
